@@ -1,0 +1,29 @@
+<head>
+	<link rel="stylesheet" href="/stylesheets/style.css">  
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<!-- Mixmax SDK -->
+  	<script defer src="https://d1xa36cy0xt122.cloudfront.net/v1/Mixmax.js"></script>
+  	<script src="//code.jquery.com/jquery-2.1.3.min.js"></script>    	
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  	<script src="/javascripts/editor.js"></script>
+
+</head>
+<body>
+<form id="search-form">
+	<label>Search:</label>
+    <div class="input-group" id="search-wrapper">
+    	<input type="text" class="form-control" id="search-box">
+    	<div class="btn-group" role="group" aria-label="Basic example">
+				<button type="button" class="btn btn-secondary type-toggle selected-type">Album</button>
+				<button type="button" class="btn btn-secondary type-toggle ">Track</button>  
+		</div>
+		<div class="btn-group" role="group">
+			<button class="btn btn-secondary" id="search-button"><span class="glyphicon glyphicon-search"></span></button>
+		</div>
+    </div>	
+</form>
+
+<div id="search-results">
+</div>
+
+</body>
